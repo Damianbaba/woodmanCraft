@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+   font-size: 62.5%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+// nawigacja
+
+nav{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler{
+    font-size: 2rem;
+}
+
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+// header
+
+header{
+    font-size: 1.5rem;
+}
+
+.carousel-item{
+    position: relative;
+    height: 500px;
+}
+
+.carousel-img-one{
+    background-image: url('../img/desktop/IMG_1835.jpg');
+}
+.carousel-img-two{
+    background-image: url('../img/desktop/IMG_1907.jpg');
+}
+.carousel-img-three{
+    background-image: url('../img/desktop/IMG_1999.jpg');
+}
