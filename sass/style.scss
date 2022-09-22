@@ -12,6 +12,16 @@ body{
     font-size: 1.6rem;
 }
 
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
 // nawigacja
 
 nav{
@@ -37,7 +47,10 @@ header{
 
 .carousel-item{
     position: relative;
-    height: 500px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
 }
 
 .carousel-img-one{
@@ -48,4 +61,19 @@ header{
 }
 .carousel-img-three{
     background-image: url('../img/desktop/IMG_1999.jpg');
+}
+
+@media (min-width: 1400px) {
+ .carousel-item{
+    height: 600px;
+ }
+ .carousel-img-one{
+    background-image: url('');
+ }
+ .carousel-img-two{
+    background-image: url('');
+ }
+ .carousel-img-three{
+    background-image: url('');
+ }
 }
