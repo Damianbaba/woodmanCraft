@@ -1,4 +1,8 @@
-*{
+@import 'colors';
+
+*,
+*::before,
+*::after{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,12 +11,27 @@
 html{
    font-size: 62.5%;
 }
+
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
 }
 
-.hero-shadow{
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Dancing Script';
+    font-size: 32px;
+}
+
+.underline{
+    background-color: $main-color;
+    height: 4px;
+    margin: 0 auto;
+    width: 64px;
+}
+
+.hero-shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -28,6 +47,7 @@ nav{
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+
 
 .navbar-toggler{
     font-size: 2rem;
@@ -47,7 +67,7 @@ header{
 
 .carousel-item{
     position: relative;
-    height: 400px;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     z-index: 0;
@@ -61,6 +81,16 @@ header{
 }
 .carousel-img-three{
     background-image: url('../img/desktop/IMG_1999.jpg');
+}
+
+// main
+
+.aboutus{
+
+    .aboutus-card-title{
+        font-size: 24px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 1400px) {

@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -12,6 +14,20 @@ html {
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1.6rem;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Dancing Script';
+  font-size: 32px;
+}
+
+.underline {
+  background-color: green;
+  height: 4px;
+  margin: 0 auto;
+  width: 64px;
 }
 
 .hero-shadow {
@@ -45,7 +61,7 @@ header {
 
 .carousel-item {
   position: relative;
-  height: 400px;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   z-index: 0;
@@ -61,6 +77,11 @@ header {
 
 .carousel-img-three {
   background-image: url("../img/desktop/IMG_1999.jpg");
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 24px;
+  text-align: center;
 }
 
 @media (min-width: 1400px) {
