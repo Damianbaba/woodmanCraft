@@ -9,12 +9,11 @@
     <!-- CSS only -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&family=Lobster+Two&family=Montserrat&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/3034e6b171.js" crossorigin="anonymous"></script>
 </head>
@@ -33,8 +32,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link px-lg-3 active" href="#">Home</a>
-                    <a class="nav-link px-lg-3" href="aboutus.html">About us</a>
+                    <a class="nav-link px-lg-5 active" href="#">Home</a>
+                    <a class="nav-link px-lg-3" href="#aboutus.html">About us</a>
                     <a class="nav-link px-lg-3" href="products.html">Products</a>
                     <a class="nav-link px-lg-3" href="projects.html">Projekty</a>
                     <a class="nav-link px-lg-3" href="contact.html">Contact</a>
@@ -64,7 +63,6 @@
                     </div>
                     <div class="hero-shadow"></div>
                 </div>
-
                 <div class="carousel-item carousel-img-two">
                     <div
                         class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
@@ -98,23 +96,64 @@
     <main>
         <section id="aboutus" class="aboutus bg-light py-5">
             <div class="container">
-                <h2>Stwórz z nami swój stół</h2>
+                <h2>Stwórz z nami swój stół...</h2>
                 <div class="underline"></div>
-                <div class="col-sm-6 col-md-4">
-                    <p class="aboutus-card-title"></p>
-                    <p class="aboutus-card-text">Wykonujemy meble ze starannie wyselekcjonowanego, litego drewna, które
+                <div class="row">
+                    <p data-aos="fade-up" class="aboutus-card-text">Wykonujemy meble ze starannie wyselekcjonowanego,
+                        litego drewna, które
                         spełniają najbardziej wygórowane oczekiwania, jakie stawiają przed nami Klienci oraz obecne
                         trendy w architekturze.
-                        Z pokolenia na pokolenie doskonalimy warsztat twórczy i pracujemy tylko na najlepszych na rynku
-                        produktach, a unikatowe i niepowtarzalne meble to po prostu nasza pasja.
                     </p>
+                    <div data-aos="fade-left" class="aboutus-imgOne"></div>
+                    <div data-aos="fade-up" class="aboutus-card-description">
+                        <p class="aboutus-card-text"></p> Z pokolenia na pokolenie doskonalimy warsztat twórczy i
+                        pracujemy
+                        tylko na najlepszych na rynku
+                        produktach, a unikatowe i niepowtarzalne meble to po prostu nasza pasja.</p>
+                    </div>
+                    <div data-aos="fade-right" class="aboutus-imgTwo"></div>
+                    <!-- check div aboutus-imgTwo nest -->
+                    <div class="aboutus-eco">
+                        <h2>BĄDŹ EKO SADŹ DRZEWO!!!</h2>
+                        <div class="underline"></div>
+                        <div class="aboutus-title">
+                            <p data-aos="fade-up" class="aboutus-eco-text">Już niebawem ruszamy z drugą edycją
+                                prowadzonej
+                                przez
+                                nas akcji „BĄDŹ
+                                EKO”
+                                W trosce o środowisko sadzimy drzewa w Bieszczadach i na Ślasku, bo tu żyjemy i
+                                pracujemy.
+                                Nie jesteśmy typowym zakładem przerabiającym drewno i nie chcemy by tak nas postrzegano,
+                                więc za
+                                każdy zakupiony przez Ciebie mebel posadzimy nowe drzewo.
+                            </p>
+                        </div>
+                        <div class="imageContainer">
+                            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                                class="aboutus-eco-imgOne"></div>
+                            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300"
+                                class="aboutus-eco-imgTwo"></div>
+                            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400"
+                                class="aboutus-eco-imgThree"></div>
+                        </div>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
 
-
     <!-- JavaScript Bundle with Popper -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            duration: 700,
+            once: true
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>

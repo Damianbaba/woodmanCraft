@@ -1,4 +1,10 @@
 @import 'colors';
+// font-family: 'Antonio', sans-serif;
+// font-family: 'Lobster', cursive;
+// font-family: 'Lobster Two', cursive;
+// font-family: 'Antonio', sans-serif;
+// font-family: 'Lobster Two', cursive;
+// font-family: 'Montserrat', sans-serif;
 
 *,
 *::before,
@@ -13,6 +19,7 @@ html{
 }
 
 body{
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
 }
@@ -20,16 +27,39 @@ body{
 h2{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Dancing Script';
+    // font-family: 'Dancing Script';
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
+}
+
+.underline::before {
+  content: '';
+  height: 1px;
+  width: 128px;
+  background-color: $main-color;
+  display: block;
+  position: relative;
+  bottom: 30px;
+  left: -400px;
 }
 
 .underline{
     background-color: $main-color;
-    height: 4px;
+    height: 0;
     margin: 0 auto;
-    width: 64px;
+    width: 128px;
 }
+.underline::after {
+  content: "";
+  height: 1px;
+  width: 128px;
+  background-color: $main-color;
+  display: block;
+  position: relative;
+  bottom: 30px;
+  left: 390px;
+}
+
 
 .hero-shadow {
     position: absolute;
@@ -37,7 +67,7 @@ h2{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
@@ -74,36 +104,186 @@ header{
 }
 
 .carousel-img-one{
-    background-image: url('../img/desktop/IMG_1835.jpg');
+    background-image: url('../img/IMG_7518.JPG');
+    // background-size: cover;
+            //   background-repeat: no-repeat;
 }
 .carousel-img-two{
-    background-image: url('../img/desktop/IMG_1907.jpg');
+    background-image: url('../img/IMG_7522.JPG');
+    background-size: cover;
+              background-repeat: no-repeat;      
 }
 .carousel-img-three{
-    background-image: url('../img/desktop/IMG_1999.jpg');
+    background-image: url('../img/IMG_1152.JPG');
+    // background-size: contain;
+            //   background-repeat: no-repeat;
 }
 
 // main
 
 .aboutus{
 
-    .aboutus-card-title{
-        font-size: 24px;
-        text-align: center;
+    p{
+       font-family: 'Montserrat', sans-serif; 
+        line-height: 45px;
     }
-}
 
-@media (min-width: 1400px) {
- .carousel-item{
-    height: 600px;
- }
- .carousel-img-one{
-    background-image: url('');
- }
- .carousel-img-two{
-    background-image: url('');
- }
- .carousel-img-three{
-    background-image: url('');
- }
-}
+     h2{
+     font-size: 38px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: light;
+     }
+
+    .row{
+        margin: 5px;
+        width: 100%;
+        // background-color: #FFB;
+
+     .aboutus-card-text{
+              display: inline-block;
+              position: relative;
+              width: 400px;
+              left: 103px;
+              top: 36px;
+              font-size: 28px;
+              font-family: 'Antonio', sans-serif;
+              margin: 2px;
+              padding: 2px;
+         } 
+
+        .aboutus-imgOne{
+              display: inline-block;
+              width: 383px;
+              position: relative;
+              top: 16px;
+              border-radius: 50px;
+              left: 439px;
+              border: solid 1px black;
+              height: 510px;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-image: url(../img/IMG_7477.JPG);
+         }
+
+        .aboutus-card-description{
+          position: relative;
+          top: 498px;
+          left: 55px;
+           font-size: 28px;
+          font-family: 'Antonio', sans-serif;
+          width: 400px;
+          line-height: 45px;
+         }
+
+         .aboutus-imgTwo{
+              position: relative;
+              top: -169px;
+              left: 62px;
+              border-radius: 50px;
+              border: solid 1px black;
+              width: 590px;
+              height: 445px;
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-image: url(../img//team.jpeg);
+            }
+     }
+
+        .aboutus-eco{
+            padding-bottom: 55px;
+            .aboutus-title{
+                
+                .aboutus-eco-text{
+                position: relative;
+                top: 0;
+                left: 295px;
+                margin-top: 80px;
+                width: 700px;
+                text-align: center;
+                margin: 25px 5px;
+                font-size: 28px;
+                font-family: 'Antonio', sans-serif;
+                line-height: 45px;
+                  }
+            }
+
+            .imageContainer{
+                width: 100%;
+                display: flex;
+                // background-color: #fff;
+                 height: 450px;
+                justify-content: center;
+                gap: 70px;
+            
+             .aboutus-eco-imgOne{
+              display: inline-block;
+              background-image: url(../img/);
+              background-size: cover;
+              border-radius: 58px;
+              background-repeat: no-repeat;
+              height: 400px;
+              width: 400px;
+              }
+
+                .aboutus-eco-imgTwo{
+                 display: inline-block;
+                 background-image: url(../img/ecoOne.jpeg);
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 height: 400px;
+                 width: 400px;
+                 border-radius: 58px;
+                 }
+
+                 .aboutus-eco-imgThree{
+                     background-image: url(../img/ecothree.jpeg);
+                     width: 400px;
+                     height: 400px;
+                     background-size: cover;
+                     position: relative;
+                     border-radius: 58px;
+                     top: 0;
+                     right: 0;
+                 }  
+            }             
+         }
+
+            //  .aboutus-eco-imgThree{
+            //      display: inline-block;
+            //  background-image: url(../img/ecothree.jpeg);
+            //  background-size: contain;
+            //   background-repeat: no-repeat;
+            //   height: 410px;
+            //  width: 400px;
+            //  }
+    }
+    
+// @media(min-width:1600px){
+//     .navbar-expand-md
+// }
+
+//   @media(min-width:768px)  {
+//       .aboutus-card-text{
+//         position: relative;
+//         left: 136px;
+//     }
+
+//     .aboutus-imgOne {
+//         position: relative;
+//         left: 154px;
+//         top: 138px;
+//     }
+
+//     .aboutus-card-description{
+//         position: relative;
+//         top: 128px;
+//         left: 143px;
+//         width: 450px;
+//     }
+
+//     .aboutus-imgTwo{
+//         position: relative;
+//         top: 134px;
+//         left: 116px;
+//     }
+  // }
