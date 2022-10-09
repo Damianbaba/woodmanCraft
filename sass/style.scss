@@ -217,7 +217,7 @@ header{
             
              .aboutus-eco-imgOne{
               display: inline-block;
-              background-image: url(../img/);
+              background-image: url(../img/LTZH9489.JPG);
               background-size: cover;
               border-radius: 58px;
               background-repeat: no-repeat;
@@ -287,3 +287,106 @@ header{
 //         left: 116px;
 //     }
   // }
+
+  @media(min-width: 414px){
+
+    body{
+
+        .underline::before {
+            width: 30px;
+            left: -120px;
+            bottom: 18px;
+        }
+
+        .underline::after {
+            width: 30px;
+            left: 220px;
+            bottom: 18px;
+        }
+
+   .carousel-item{
+    height: 90vh;
+}
+   #aboutus{
+
+    .row{
+        background-color: pink;
+    }
+
+    h2{
+    font-size: 2rem;
+  }
+
+  .aboutus-card-text{
+    font-size: 1.5rem;
+    line-height: 26px;
+    text-align: center;
+    left: 42px;
+    top: 0;
+    width: 300px;
+  }
+
+  .aboutus-imgOne{
+    left: 43px;
+    height: 350px;
+    width: 300px;
+  }
+
+  .aboutus-card-description{
+    margin: 25px 0;
+    top: 0;
+    left: -50px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .aboutus-imgTwo{
+    top: 0;
+    left: 46px;
+    height: 350px;
+    width: 300px;
+  }
+
+  .aboutus-eco{
+    margin-top: 25px;
+
+    .imageContainer{
+        flex-direction: column;
+        // background-color: #333;
+        height: 100vh;
+        gap: 5px;
+
+        .aboutus-eco-imgOne{
+            width: 180px;
+            height: 250px;
+            margin: 0 auto;
+            background-size: contain;
+            background-image: url(../img/mobile/LTZH9489_640x853.png);
+        }
+        .aboutus-eco-imgTwo{
+            width: 180px;
+            height: 250px;
+            margin: 0 auto;
+            background-image: url(../img/mobile/ecoOne_640x722.png);
+        }
+        .aboutus-eco-imgThree{
+            display: none;
+            background-image: url(../img/mobile/ecoTwo_640x628.png);
+            width: 180px;
+            height: 250px;
+            margin: 0 auto;
+        }
+    }
+
+  }
+  .aboutus-eco-text{
+    width: 300px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    left: 44px;
+  }
+
+ }
+}
+}
