@@ -181,11 +181,11 @@ header{
               left: 62px;
               border-radius: 50px;
               border: solid 1px black;
-              width: 590px;
-              height: 445px;
+              width: 299px;
+              height: 255px;
              background-size: cover;
              background-repeat: no-repeat;
-             background-image: url(../img//team.jpeg);
+             background-image: url(../img/mobile/mobileMichael.png);
             }
      }
 
@@ -211,7 +211,7 @@ header{
                 width: 100%;
                 display: flex;
                 // background-color: #fff;
-                 height: 450px;
+                //  height: 450px;
                 justify-content: center;
                 gap: 70px;
             
@@ -221,7 +221,7 @@ header{
               background-size: cover;
               border-radius: 58px;
               background-repeat: no-repeat;
-              height: 400px;
+              height: 300px;
               width: 400px;
               }
 
@@ -230,7 +230,7 @@ header{
                  background-image: url(../img/ecoOne.jpeg);
                  background-size: cover;
                  background-repeat: no-repeat;
-                 height: 400px;
+                 height: 300px;
                  width: 400px;
                  border-radius: 58px;
                  }
@@ -238,7 +238,7 @@ header{
                  .aboutus-eco-imgThree{
                      background-image: url(../img/ecothree.jpeg);
                      width: 400px;
-                     height: 400px;
+                     height: 300px;
                      background-size: cover;
                      position: relative;
                      border-radius: 58px;
@@ -248,14 +248,14 @@ header{
             }             
          }
 
-            //  .aboutus-eco-imgThree{
-            //      display: inline-block;
-            //  background-image: url(../img/ecothree.jpeg);
-            //  background-size: contain;
-            //   background-repeat: no-repeat;
-            //   height: 410px;
-            //  width: 400px;
-            //  }
+             .aboutus-eco-imgThree{
+                 display: inline-block;
+              background-image: url(../img/ecothree.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              height: 410px;
+              width: 400px;
+             }
     }
     
 // @media(min-width:1600px){
@@ -310,7 +310,7 @@ header{
    #aboutus{
 
     .row{
-        background-color: pink;
+        // background-color: pink;
     }
 
     h2{
@@ -328,6 +328,7 @@ header{
 
   .aboutus-imgOne{
     left: 43px;
+    margin-bottom: 68px;
     height: 350px;
     width: 300px;
   }
@@ -343,9 +344,9 @@ header{
 
   .aboutus-imgTwo{
     top: 0;
-    left: 46px;
-    height: 350px;
-    width: 300px;
+    left: 55px;
+    height: 261px;
+    width: 285px;
   }
 
   .aboutus-eco{
@@ -354,39 +355,37 @@ header{
     .imageContainer{
         flex-direction: column;
         // background-color: #333;
-        height: 100vh;
-        gap: 5px;
+        // height: 100vh;
+        gap: 15px;
+        justify-content: none;
 
         .aboutus-eco-imgOne{
-            width: 180px;
-            height: 250px;
+            width: 250px;
             margin: 0 auto;
-            background-size: contain;
             background-image: url(../img/mobile/LTZH9489_640x853.png);
+            border-radius: 25px;
         }
         .aboutus-eco-imgTwo{
-            width: 180px;
-            height: 250px;
+            width: 250px;
             margin: 0 auto;
-            background-image: url(../img/mobile/ecoOne_640x722.png);
+            background-image: url(../img/mobile/ecoOneResized.png);
+            border-radius: 25px;
         }
         .aboutus-eco-imgThree{
-            display: none;
-            background-image: url(../img/mobile/ecoTwo_640x628.png);
-            width: 180px;
-            height: 250px;
+            background-size: cover;
+            background-image: url(../img/mobile/ecothree.jpeg);
+            border-radius: 25px;
+            width: 250px;
             margin: 0 auto;
         }
     }
-
   }
-  .aboutus-eco-text{
-    width: 300px;
-    font-size: 1.5rem;
-    line-height: 30px;
-    left: 44px;
-  }
-
- }
-}
+            .aboutus-eco-text{
+             width: 300px;
+             font-size: 1.5rem;
+             line-height: 30px;
+             left: 44px;
+            }
+        }
+    }
 }
