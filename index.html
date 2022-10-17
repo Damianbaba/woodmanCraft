@@ -35,8 +35,8 @@
                     <a class="nav-link px-lg-5 active" href="#">Home</a>
                     <a class="nav-link px-lg-3" href="#aboutus">About us</a>
                     <a class="nav-link px-lg-3" href="products.html">Products</a>
-                    <a class="nav-link px-lg-3" href="projects.html">Projekty</a>
-                    <a class="nav-link px-lg-3" href="contact.html">Contact</a>
+                    <a class="nav-link px-lg-3" href="projects.html">Projects</a>
+                    <a class="nav-link px-lg-3" href="#contactus">Contact</a>
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
     <main>
         <section id="aboutus" class="aboutus bg-light py-5">
             <div class="container">
-                <h2>Stwórz z nami swój stół</h2>
+                <h2 data-aos="fade-up">Stwórz z nami swój stół</h2>
                 <div class="underline"></div>
                 <div class="row">
                     <p data-aos="fade-up" class="aboutus-card-text">Wykonujemy meble ze starannie wyselekcjonowanego,
@@ -104,14 +104,14 @@
                         spełniają najbardziej wygórowane oczekiwania, jakie stawiają przed nami Klienci oraz obecne
                         trendy w architekturze.
                     </p>
-                    <div data-aos="fade-left" class="aboutus-imgOne"></div>
+                    <div data-aos="fade-up" class="aboutus-imgOne"></div>
                     <div data-aos="fade-up" class="aboutus-card-description">
                         <p class="aboutus-card-text">Z pokolenia na pokolenie doskonalimy warsztat twórczy i
                             pracujemy
                             tylko na najlepszych na rynku
                             produktach, a unikatowe i niepowtarzalne meble to po prostu nasza pasja.</p>
                     </div>
-                    <div data-aos="fade-right" class="aboutus-imgTwo"></div>
+                    <div data-aos="fade-up" class="aboutus-imgTwo"></div>
                     <!-- check div aboutus-imgTwo nest -->
                     <div class="aboutus-eco">
                         <h2>BĄDŹ EKO SADŹ DRZEWO!!!</h2>
@@ -142,9 +142,26 @@
             </div>
             </div>
         </section>
+        <section id="contactus" class="contactus bg-dark py-5">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300"
+                class="form-container">
+                <form action="/" class="decor">
+                    <div class="form-left-decoration"></div>
+                    <div class="form-right-decoration"></div>
+                    <!-- <div class="circle"></div> -->
+                    <div class="form-inner">
+                        <h1>Kontakt</h1>
+                        <input type="text" placeholder="Twoję imię">
+                        <input type="email" placeholder="Adres e-mail">
+                        <textarea placeholder="Wiadomość..." rows="5"></textarea>
+                        <button type="submit" href="/">Wyślij</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="bg-dark text-light">
-        <p class="py-5 mb-o text-center">&copy; 2022 Copyright</p>
+        <p class="py-5 mb-0 text-center">&copy; 2022 Copyright</p>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

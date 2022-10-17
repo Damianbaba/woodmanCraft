@@ -237,6 +237,122 @@ header {
   width: 400px;
 }
 
+.contactus {
+  height: 100vh;
+  width: 100%;
+}
+
+.contactus .form-container {
+  position: relative;
+  top: 150px;
+  width: 100%;
+}
+
+.contactus .form-container form {
+  position: relative;
+  left: 42px;
+  width: 78%;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.contactus .form-container .form-left-decoration,
+.contactus .form-container .form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  background: #5a7233;
+}
+
+.contactus .form-container .form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+
+.contactus .form-container .form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+
+.contactus .form-container .form-left-decoration:before,
+.contactus .form-container .form-left-decoration:after,
+.contactus .form-container .form-right-decoration:before,
+.contactus .form-container .form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.contactus .form-container .form-left-decoration:before {
+  top: -20px;
+}
+
+.contactus .form-container .form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+
+.contactus .form-container .form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+
+.contactus .form-container .form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+
+.contactus .form-container .circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.contactus .form-container .form-inner {
+  padding: 40px;
+}
+
+.contactus .form-container .form-inner input,
+.contactus .form-container .form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #d0dfe8;
+}
+
+.contactus .form-container .form-inner textarea {
+  resize: none;
+}
+
+.contactus .form-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 4px solid #3e4f24;
+  background: #5a7233;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contactus .form-container button:hover {
+  background: #3e4f24;
+}
+
 @media (min-width: 414px) {
   body .underline::before {
     width: 30px;

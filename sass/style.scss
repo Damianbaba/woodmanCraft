@@ -174,21 +174,19 @@ header{
           width: 400px;
           line-height: 45px;
          }
-
          .aboutus-imgTwo{
-              position: relative;
-              top: -169px;
-              left: 62px;
-              border-radius: 50px;
-              border: solid 1px black;
-              width: 299px;
-              height: 255px;
+             position: relative;
+             top: -169px;
+             left: 62px;
+             border-radius: 50px;
+             border: solid 1px black;
+             width: 299px;
+             height: 255px;
              background-size: cover;
              background-repeat: no-repeat;
              background-image: url(../img/mobile/mobileMichael.png);
             }
      }
-
         .aboutus-eco{
             padding-bottom: 55px;
             .aboutus-title{
@@ -249,7 +247,7 @@ header{
          }
 
              .aboutus-eco-imgThree{
-                 display: inline-block;
+              display: inline-block;
               background-image: url(../img/ecothree.jpeg);
               background-size: contain;
               background-repeat: no-repeat;
@@ -257,7 +255,119 @@ header{
               width: 400px;
              }
     }
+
+
+        .contactus{
+         height: 100vh;
+         width: 100%;
+
+         .form-container{
+            position: relative;
+            top: 150px;
+            width: 100%;
+            // align-items: center;
+        form {
+      position: relative;
+      left: 42px;
+      width: 78%;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .form-left-decoration,
+      .form-right-decoration {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 20px;
+      background: #5a7233;
+      }
+      .form-left-decoration {
+      bottom: 60px;
+      left: -30px;
+      }
+      .form-right-decoration {
+      top: 60px;
+      right: -30px;
+      }
+      .form-left-decoration:before,
+      .form-left-decoration:after,
+      .form-right-decoration:before,
+      .form-right-decoration:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .form-left-decoration:before {
+      top: -20px;
+      }
+      .form-left-decoration:after {
+      top: 20px;
+      left: 10px;
+      }
+      .form-right-decoration:before {
+      top: -20px;
+      right: 0;
+      }
+      .form-right-decoration:after {
+      top: 20px;
+      right: 10px;
+      }
+      .circle {
+      position: absolute;
+      bottom: 80px;
+      left: -55px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      }
+      .form-inner {
+      padding: 40px;
+      }
+      .form-inner input,
+      .form-inner textarea {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+      .form-inner textarea {
+      resize: none;
+      }
+      button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: none;
+      border-bottom: 4px solid #3e4f24;
+      background: #5a7233; 
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background: #3e4f24;
+      }
+         }
+    }
     
+
+
+
+
+
+
+
+
+
 // @media(min-width:1600px){
 //     .navbar-expand-md
 // }
@@ -287,6 +397,10 @@ header{
 //         left: 116px;
 //     }
   // }
+
+
+
+
 
   @media(min-width: 414px){
 
