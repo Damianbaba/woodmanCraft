@@ -5,6 +5,7 @@
 // font-family: 'Antonio', sans-serif;
 // font-family: 'Lobster Two', cursive;
 // font-family: 'Montserrat', sans-serif;
+// enctype="multipart/form-data"
 
 *,
 *::before,
@@ -59,7 +60,6 @@ h2{
   bottom: 30px;
   left: 390px;
 }
-
 
 .hero-shadow {
     position: absolute;
@@ -157,7 +157,7 @@ header{
               position: relative;
               top: 16px;
               border-radius: 50px;
-              left: 439px;
+              left: 50px;
               border: solid 1px black;
               height: 510px;
               background-size: cover;
@@ -192,7 +192,7 @@ header{
             .aboutus-title{
                 
                 .aboutus-eco-text{
-                position: relative;
+                position: relative  ;
                 top: 0;
                 left: 295px;
                 margin-top: 80px;
@@ -359,15 +359,6 @@ header{
          }
     }
     
-
-
-
-
-
-
-
-
-
 // @media(min-width:1600px){
 //     .navbar-expand-md
 // }
@@ -398,12 +389,7 @@ header{
 //     }
   // }
 
-
-
-
-
   @media(min-width: 414px){
-
     body{
 
         .underline::before {
@@ -418,50 +404,47 @@ header{
             bottom: 18px;
         }
 
-   .carousel-item{
-    height: 90vh;
-}
-   #aboutus{
+        .carousel-item{
+            height: 90vh;
+         }
+        #aboutus{
+            .row{
+        background-color: pink;
+         }
+         h2{
+        font-size: 2rem;
+         }
+        .aboutus-card-text{
+        font-size: 1.5rem;
+         line-height: 26px;
+         text-align: center;
+         left: 42px;
+         top: 0;
+         width: 300px;
+        }
 
-    .row{
-        // background-color: pink;
-    }
+        .aboutus-imgOne{
+        left: 43px;
+        margin-bottom: 68px;
+        height: 350px;
+        width: 300px;
+        }
 
-    h2{
-    font-size: 2rem;
-  }
+        .aboutus-card-description{
+        margin: 25px 0;
+        top: 0;
+        left: -50px;
+        font-size: 1.5rem;
+        line-height: 30px;
+        text-align: center;
+        }
 
-  .aboutus-card-text{
-    font-size: 1.5rem;
-    line-height: 26px;
-    text-align: center;
-    left: 42px;
-    top: 0;
-    width: 300px;
-  }
-
-  .aboutus-imgOne{
-    left: 43px;
-    margin-bottom: 68px;
-    height: 350px;
-    width: 300px;
-  }
-
-  .aboutus-card-description{
-    margin: 25px 0;
-    top: 0;
-    left: -50px;
-    font-size: 1.5rem;
-    line-height: 30px;
-    text-align: center;
-  }
-
-  .aboutus-imgTwo{
-    top: 0;
-    left: 55px;
-    height: 261px;
-    width: 285px;
-  }
+        .aboutus-imgTwo{
+        top: 0;
+        left: 55px;
+        height: 261px;
+        width: 285px;
+        }
 
   .aboutus-eco{
     margin-top: 25px;
@@ -503,3 +486,20 @@ header{
         }
     }
 }
+
+
+
+
+
+// @media(min-width:1024px){
+//     body{
+//     .aboutus-imgOne{
+//         position: relative;
+//     left: 220px;
+//     }
+// }
+//     .row{
+//         display:inline-block;
+//         flex: none;
+//     }
+//     }

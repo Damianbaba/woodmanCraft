@@ -58,7 +58,7 @@
                 <div class="carousel-item carousel-img-one active">
                     <div
                         class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
-                        <p class="display-3">Lorem ipsum dolor.</p>
+                        <p class="display-3"></p>
                         <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                     <div class="hero-shadow"></div>
@@ -66,7 +66,7 @@
                 <div class="carousel-item carousel-img-two">
                     <div
                         class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
-                        <p class="display-3">Lorem ipsum dolor.</p>
+                        <p class="display-3"></p>
                         <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                     <div class="hero-shadow"></div>
@@ -74,7 +74,7 @@
                 <div class="carousel-item carousel-img-three">
                     <div
                         class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
-                        <p class="display-3">Lorem ipsum dolor.</p>
+                        <p class="display-3"></p>
                         <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                     <div class="hero-shadow"></div>
@@ -92,7 +92,6 @@
             </button>
         </div>
     </header>
-
     <main>
         <section id="aboutus" class="aboutus bg-light py-5">
             <div class="container">
@@ -145,16 +144,16 @@
         <section id="contactus" class="contactus bg-dark py-5">
             <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300"
                 class="form-container">
-                <form action="/" class="decor">
-                    <div class="form-left-decoration"></div>
-                    <div class="form-right-decoration"></div>
+                <form action="https://" method="POST" class=" decor">
+                    <!-- <div class="form-left-decoration"></div>
+                    <div class="form-right-decoration"></div> -->
                     <!-- <div class="circle"></div> -->
                     <div class="form-inner">
                         <h1>Kontakt</h1>
-                        <input type="text" placeholder="Twoję imię">
-                        <input type="email" placeholder="Adres e-mail">
-                        <textarea placeholder="Wiadomość.." rows="5"></textarea>
-                        <button type="submit" href="/">Wyślij</button>
+                        <input name="name" type="text" placeholder="Twoję imię" required>
+                        <input name="email" type="email" placeholder="Adres e-mail" required>
+                        <textarea name="message" placeholder="Wiadomość.." rows="5"></textarea>
+                        <button type="submit">Wyślij</button>
                     </div>
                 </form>
             </div>
@@ -164,7 +163,7 @@
         <p class="py-5 mb-0 text-center">&copy; 2022 Copyright</p>
     </footer>
 
-    <!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({

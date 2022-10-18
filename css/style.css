@@ -138,7 +138,7 @@ header {
   position: relative;
   top: 16px;
   border-radius: 50px;
-  left: 439px;
+  left: 50px;
   border: solid 1px black;
   height: 510px;
   background-size: cover;
@@ -366,6 +366,9 @@ header {
   }
   body .carousel-item {
     height: 90vh;
+  }
+  body #aboutus .row {
+    background-color: pink;
   }
   body #aboutus h2 {
     font-size: 2rem;
