@@ -118,158 +118,62 @@ header{
 // main
 
 .aboutus{
-.aboutus-description{
-position: relative;
-top: 6px;
-}
-    p{
-       font-family: 'Montserrat', sans-serif; 
-       text-align: center;
-    }
+    .container{
+        width: 100%;
+        // background-color: red;
 
-     h2{
-     font-size: 38px;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: light;
-     }
-
-    .row{
-        margin: 5px;
-        background-color: pink;
-
-     .aboutus-card-text{
-              display: inline-block;
-              position: relative;
-              width: 300px;
-              top: 8px;
-              left: 46px;
-              font-size: 18px;
-              font-family: 'Antonio', sans-serif;
-              margin: 2px;
-              padding: 2px;
-         } 
-
-        .aboutus-imgOne{
-              display: inline-block;
-              position: relative;
-              top: 16px;
-              border-radius: 50px;
-              left: 95px;
-              border: solid 1px black;
-              height: 200px;
-              width: 200px;
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-image: url(../img/IMG_7477.JPG);
-         }
-
-        .aboutus-card-description{
-                left: 0;
-                position: relative;
-                top: 10px;
-                 font-size: 28px;
-                 font-family: 'Antonio', sans-serif;
-         }
-         .aboutus-imgTwo{
-             position: relative;
-             top: 25px;
-             left: 95px;
-             border-radius: 50px;
-             border: solid 1px black;
-             width: 200px;
-             height: 200px;
-             background-size: cover;
-             background-repeat: no-repeat;
-             background-image: url(../img/mobile/mobileMichael.png);
-            }
-     }
-        .aboutus-eco{
-            padding-bottom: 55px;
-            margin-top: 30px;
-            .eco-description{
-                position: relative;
-                top: 0;
-            }
-            .aboutus-title{
-                
-                .aboutus-eco-text{
-                position: relative  ;
-                top: 0;
-                margin-top: 80px;
+        .aboutus-text{
+            display: flex;
+            flex-direction: column;
+            margin: 25px 0;
+            .text{
+                display: inline-block;
                 text-align: center;
-                margin: 25px 5px;
                 font-size: 18px;
                 font-family: 'Antonio', sans-serif;
-                 }
+                line-height: 35px;
             }
-
-            .imageContainer{
-                position: relative;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 10px;
-            
-             .aboutus-eco-imgOne{
-              display: inline-block;
-              background-image: url(../img/LTZH9489.JPG);
-              background-size: cover;
-              border-radius: 58px;
-              background-repeat: no-repeat;
-              height: 200px;
-              width: 200px;
-              }
-
-                .aboutus-eco-imgTwo{
-                 display: inline-block;
-                 background-image: url(../img/ecoOne.jpeg);
-                 background-size: cover;
-                 background-repeat: no-repeat;
-                 height: 200px;
-                 width: 200px;
-                 border-radius: 58px;
-                 }
-
-                 .aboutus-eco-imgThree{
-                     background-image: url(../img/ecothree.jpeg);
-                     width: 200px;
-                     height: 200px;
-                     background-size: cover;
-                     position: relative;
-                     border-radius: 58px;
-                     top: 0;
-                     right: 0;
-                 }  
-            }             
-         }
-
-             .aboutus-eco-imgThree{
-              display: inline-block;
-              background-image: url(../img/ecothree.jpeg);
-              background-size: contain;
-              background-repeat: no-repeat;
-              height: 200px;
-              width: 200px;
-             }
+            .aboutus-imgOne{
+                background-image: url(../img/IMG_7477.JPG);
+                width: 250px;
+                height: 250px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 5px;
+                display: inline-block;
+                border-radius: 25px;
+                align-self: center;
+            }
+            .aboutus-imgTwo{
+                background-image: url(../img/mobile/mobileMichael.png);
+                width: 250px;
+                height: 250px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-bottom: 50px;
+                display: inline-block;
+                border-radius: 25px;
+                align-self: center;
+            }
+        }
     }
+}
 
-        .contactus{
-         height: 100vh;
-         width: 100%;
-
-         .form-container{
-            position: relative;
-            top: 150px;
-            width: 100%;
-        form {
-      position: relative;
-      left: 42px;
-      width: 78%;
-      border-radius: 30px;
-      background: #fff;
-      }
+.contactus{
+height: 100vh;
+width: 100%;
+.container-form{
+.form-container{
+position: relative;
+top: 150px;
+width: 75%;
+form {
+    position: relative;
+    left: 42px;
+    width: 78%;
+    border-radius: 30px;
+    background: #fff;
+                            }
       .form-left-decoration,
       .form-right-decoration {
       content: "";
@@ -353,146 +257,140 @@ top: 6px;
       button:hover {
       background: #3e4f24;
       }
-         }
-    }
-    
-// @media(min-width:1600px){
-//     .navbar-expand-md
+   }
+}
+}
+
+// .aboutus{
+
+// .aboutus-description{
+// position: relative;
+// top: 6px;
 // }
-
-//   @media(min-width:768px)  {
-//       .aboutus-card-text{
-//         position: relative;
-//         left: 136px;
+//     p{
+//        font-family: 'Montserrat', sans-serif; 
+//        text-align: center;
 //     }
 
-//     .aboutus-imgOne {
-//         position: relative;
-//         left: 154px;
-//         top: 138px;
-//     }
+//      h2{
+//      font-size: 38px;
+//      font-family: 'Montserrat', sans-serif;
+//      font-weight: light;
+//      }
 
-//     .aboutus-card-description{
-//         position: relative;
-//         top: 128px;
-//         left: 143px;
-//         width: 450px;
-//     }
+//     .row{
+//         // margin: 5px;
+//         // background-color: red;
 
-//     .aboutus-imgTwo{
-//         position: relative;
-//         top: 134px;
-//         left: 116px;
-//     }
-  // }
-
-//   @media(min-width: 414px){
-//     body{
-
-//         .underline::before {
-//             width: 30px;
-//             left: -120px;
-//             bottom: 18px;
-//         }
-
-//         .underline::after {
-//             width: 30px;
-//             left: 220px;
-//             bottom: 18px;
-//         }
-
-//         .carousel-item{
-//             height: 90vh;
-//          }
-//         #aboutus{
-//             .row{
-//         background-color: pink;
-//          }
-//          h2{
-//         font-size: 2rem;
-//          }
-//         .aboutus-card-text{
-//         font-size: 1.5rem;
-//          line-height: 26px;
-//          text-align: center;
-//          left: 42px;
-//          top: 0;
-//          width: 300px;
-//         }
+//      .aboutus-card-text{
+//               display: inline-block;
+//               position: relative;
+//               width: 300px;
+//               top: 8px;
+//               left: 46px;
+//               font-size: 18px;
+//               font-family: 'Antonio', sans-serif;
+//               margin: 2px;
+//               padding: 2px;
+//          } 
 
 //         .aboutus-imgOne{
-//         left: 43px;
-//         margin-bottom: 68px;
-//         height: 350px;
-//         width: 300px;
-//         }
+//               display: inline-block;
+//               position: relative;
+//               top: 16px;
+//               border-radius: 50px;
+//               left: 95px;
+//               border: solid 1px black;
+//               height: 200px;
+//               width: 200px;
+//               background-size: cover;
+//               background-repeat: no-repeat;
+//               background-image: url(../img/IMG_7477.JPG);
+//          }
 
 //         .aboutus-card-description{
-//         margin: 25px 0;
-//         top: 0;
-//         left: -50px;
-//         font-size: 1.5rem;
-//         line-height: 30px;
-//         text-align: center;
-//         }
-
-//         .aboutus-imgTwo{
-//         top: 0;
-//         left: 55px;
-//         height: 261px;
-//         width: 285px;
-//         }
-
-//   .aboutus-eco{
-//     margin-top: 25px;
-
-//     .imageContainer{
-//         flex-direction: column;
-//         // background-color: #333;
-//         // height: 100vh;
-//         gap: 15px;
-//         justify-content: none;
-
-//         .aboutus-eco-imgOne{
-//             width: 250px;
-//             margin: 0 auto;
-//             background-image: url(../img/mobile/LTZH9489_640x853.png);
-//             border-radius: 25px;
-//         }
-//         .aboutus-eco-imgTwo{
-//             width: 250px;
-//             margin: 0 auto;
-//             background-image: url(../img/mobile/ecoOneResized.png);
-//             border-radius: 25px;
-//         }
-//         .aboutus-eco-imgThree{
-//             background-size: cover;
-//             background-image: url(../img/mobile/ecothree.jpeg);
-//             border-radius: 25px;
-//             width: 250px;
-//             margin: 0 auto;
-//         }
-//     }
-//   }
-//             .aboutus-eco-text{
-//              width: 300px;
-//              font-size: 1.5rem;
-//              line-height: 30px;
-//              left: 44px;
+//                 left: 0;
+//                 position: relative;
+//                 top: 10px;
+//                  font-size: 28px;
+//                  font-family: 'Antonio', sans-serif;
+//          }
+//          .aboutus-imgTwo{
+//              position: relative;
+//              top: 25px;
+//              left: 95px;
+//              border-radius: 50px;
+//              border: solid 1px black;
+//              width: 200px;
+//              height: 200px;
+//              background-size: cover;
+//              background-repeat: no-repeat;
+//              background-image: url(../img/mobile/mobileMichael.png);
 //             }
-//         }
-//     }
+//         .aboutus-eco{
+//             padding-bottom: 55px;
+//             margin-top: 30px;
+//             .eco-description{
+//                 position: relative;
+//                 top: 0;
+//             }
+//             .aboutus-title{
+                
+//                 .aboutus-eco-text{
+//                 position: relative  ;
+//                 top: 0;
+//                 margin-top: 80px;
+//                 text-align: center;
+//                 margin: 25px 5px;
+//                 font-size: 18px;
+//                 font-family: 'Antonio', sans-serif;
+//                  }
+//             }
+
+//             .imageContainer{
+//                 position: relative;
+//                 width: 100%;
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: center;
+//                 align-items: center;
+//                 gap: 10px;
+            
+//              .aboutus-eco-imgOne{
+//               display: inline-block;
+//               background-image: url(../img/LTZH9489.JPG);
+//               background-size: cover;
+//               border-radius: 58px;
+//               background-repeat: no-repeat;
+//               height: 200px;
+//               width: 200px;
+//               }
+
+//                 .aboutus-eco-imgTwo{
+//                  display: inline-block;
+//                  background-image: url(../img/ecoOne.jpeg);
+//                  background-size: cover;
+//                  background-repeat: no-repeat;
+//                  height: 200px;
+//                  width: 200px;
+//                  border-radius: 58px;
+//                  }
+
+//                  .aboutus-eco-imgThree{
+//                      background-image: url(../img/ecothree.jpeg);
+//                      width: 200px;
+//                      height: 200px;
+//                      background-size: cover;
+//                      position: relative;
+//                      border-radius: 58px;
+//                      top: 0;
+//                      right: 0;
+//                  }  
+//             }             
+//      }    }
 // }
 
-// @media(min-width:1024px){
-//     body{
-//     .aboutus-imgOne{
-//         position: relative;
-//     left: 220px;
-//     }
-// }
-//     .row{
-//         display:inline-block;
-//         flex: none;
-//     }
-//     }
+
+
+
+  
