@@ -2,7 +2,7 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -85,8 +85,8 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 25px 0;
 }
 
@@ -108,8 +108,8 @@ header {
   display: inline-block;
   border-radius: 25px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .aboutus .container .aboutus-text .aboutus-imgTwo {
@@ -122,8 +122,8 @@ header {
   display: inline-block;
   border-radius: 25px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .contactus {
@@ -134,7 +134,7 @@ header {
 .contactus .container-form .form-container {
   position: relative;
   top: 150px;
-  width: 75%;
+  width: 100%;
 }
 
 .contactus .container-form .form-container form {
@@ -241,4 +241,5 @@ header {
 .contactus .container-form .form-container button:hover {
   background: #3e4f24;
 }
+
 /*# sourceMappingURL=style.css.map */
