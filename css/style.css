@@ -139,9 +139,7 @@ header {
 }
 
 .contactus .container-form .form-container form {
-  position: relative;
-  left: 42px;
-  width: 78%;
+
   border-radius: 30px;
   background: #fff;
 }
