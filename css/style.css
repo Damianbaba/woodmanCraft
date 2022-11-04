@@ -13,14 +13,14 @@ html {
 
 body {
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
 }
 
 h2 {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -94,7 +94,7 @@ header {
   display: inline-block;
   text-align: center;
   font-size: 18px;
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   line-height: 35px;
 }
 
@@ -113,7 +113,7 @@ header {
 }
 
 .aboutus .container .aboutus-text .aboutus-imgTwo {
-  background-image: url(../img/mobile/mobileMichael.png);
+  background-image: url(/img/mobile/michal.png);
   width: 250px;
   height: 250px;
   background-size: cover;
@@ -139,7 +139,6 @@ header {
 }
 
 .contactus .container-form .form-container form {
-
   border-radius: 30px;
   background: #fff;
 }
