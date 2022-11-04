@@ -134,7 +134,7 @@ header {
 .contactus .container-form .form-container {
   position: relative;
   top: 150px;
-  width: 75%;
+  max-width: 500px;
   margin: 0 auto;
 }
 
