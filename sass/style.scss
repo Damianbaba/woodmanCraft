@@ -167,13 +167,11 @@ width: 100%;
 position: relative;
 top: 150px;
 width: 75%;
+margin: 0 auto;
 form {
-    position: relative;
-    left: 42px;
-    width: 78%;
     border-radius: 30px;
     background: #fff;
-                            }
+      }
       .form-left-decoration,
       .form-right-decoration {
       content: "";
@@ -260,6 +258,24 @@ form {
    }
 }
 }
+
+// footer
+
+.footer-container{
+    .social-media{
+        ul{
+            display: flex;
+            list-style-type: none;
+
+            li{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+
 
 // .aboutus{
 
