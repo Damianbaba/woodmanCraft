@@ -275,6 +275,65 @@ form {
 }
 
 
+@media (min-width: 768px) { 
+    .aboutus{
+        .aboutus-description{
+            font-size: 32px;
+        }
+
+        .container{
+            .aboutus-text{
+                .text{
+                    font-size: 24px;
+                }
+                .aboutus-imgOne{
+                    width: 400px;
+                    height: 400px;
+                    margin-top: 50px;
+                }
+
+                .aboutus-imgTwo{
+                    width: 400px;
+                    height: 400px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .aboutus{
+        .aboutus-description{
+            font-size: 42px;
+        }
+    }
+
+    .contactus{
+        .container-form .form-container{
+            top: 250px;
+        }
+    }
+ }
+
+@media (min-width: 1200px) {
+    .aboutus{
+        .aboutus-description{
+            font-size: 42px;
+            margin-top: 34px;
+        }
+      .container{
+          .aboutus-text{
+              .text{
+              font-size: 32px;
+               }
+            }
+        }
+    }
+}
+
+
+
 
 
 // .aboutus{
