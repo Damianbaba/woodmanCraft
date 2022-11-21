@@ -2,7 +2,7 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -78,18 +78,16 @@ header {
 .aboutus .container {
   width: 100%;
 }
-
 .aboutus .container .aboutus-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 25px 0;
 }
-
 .aboutus .container .aboutus-text .text {
   display: inline-block;
   text-align: center;
@@ -97,7 +95,6 @@ header {
   font-family: "Antonio", sans-serif;
   line-height: 35px;
 }
-
 .aboutus .container .aboutus-text .aboutus-imgOne {
   background-image: url(../img/mobile/My\ project\ \(5\).jpg);
   width: 250px;
@@ -108,12 +105,9 @@ header {
   display: inline-block;
   border-radius: 25px;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      align-self: center;
 }
-
 .aboutus .container .aboutus-text .aboutus-imgTwo {
-  background-image: url(/img/mobile/michal.png);
   background-image: url(../img/mobile/michal.png);
   width: 250px;
   height: 250px;
@@ -123,27 +117,23 @@ header {
   display: inline-block;
   border-radius: 25px;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      align-self: center;
 }
 
 .contactus {
   height: 100vh;
   width: 100%;
 }
-
 .contactus .container-form .form-container {
   position: relative;
   top: 150px;
-  max-width: 500px;
+  width: 75%;
   margin: 0 auto;
 }
-
 .contactus .container-form .form-container form {
   border-radius: 30px;
   background: #fff;
 }
-
 .contactus .container-form .form-container .form-left-decoration,
 .contactus .container-form .form-container .form-right-decoration {
   content: "";
@@ -153,17 +143,14 @@ header {
   border-radius: 20px;
   background: #5a7233;
 }
-
 .contactus .container-form .form-container .form-left-decoration {
   bottom: 60px;
   left: -30px;
 }
-
 .contactus .container-form .form-container .form-right-decoration {
   top: 60px;
   right: -30px;
 }
-
 .contactus .container-form .form-container .form-left-decoration:before,
 .contactus .container-form .form-container .form-left-decoration:after,
 .contactus .container-form .form-container .form-right-decoration:before,
@@ -175,26 +162,21 @@ header {
   border-radius: 30px;
   background: #fff;
 }
-
 .contactus .container-form .form-container .form-left-decoration:before {
   top: -20px;
 }
-
 .contactus .container-form .form-container .form-left-decoration:after {
   top: 20px;
   left: 10px;
 }
-
 .contactus .container-form .form-container .form-right-decoration:before {
   top: -20px;
   right: 0;
 }
-
 .contactus .container-form .form-container .form-right-decoration:after {
   top: 20px;
   right: 10px;
 }
-
 .contactus .container-form .form-container .circle {
   position: absolute;
   bottom: 80px;
@@ -204,11 +186,9 @@ header {
   border-radius: 50%;
   background: #fff;
 }
-
 .contactus .container-form .form-container .form-inner {
   padding: 40px;
 }
-
 .contactus .container-form .form-container .form-inner input,
 .contactus .container-form .form-container .form-inner textarea {
   display: block;
@@ -219,11 +199,9 @@ header {
   border-radius: 20px;
   background: #d0dfe8;
 }
-
 .contactus .container-form .form-container .form-inner textarea {
   resize: none;
 }
-
 .contactus .container-form .form-container button {
   width: 100%;
   padding: 10px;
@@ -236,12 +214,10 @@ header {
   font-weight: 400;
   color: #fff;
 }
-
 .contactus .container-form .form-container button:hover {
   background: #3e4f24;
 }
 
-<<<<<<< HEAD
 .footer-container .social-media ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,6 +263,3 @@ header {
     font-size: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> 3167de2e749f32a0c1cf7cb905461c61598b345b
