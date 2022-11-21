@@ -9,23 +9,23 @@
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
-   font-size: 62.5%;
+html {
+    font-size: 62.5%;
 }
 
-body{
+body {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
 }
 
-h2{
+h2 {
     text-align: center;
     text-transform: uppercase;
     // font-family: 'Dancing Script';
@@ -73,17 +73,17 @@ h2{
 
 // nawigacja
 
-nav{
+nav {
     font-size: 1.5rem;
     text-transform: uppercase;
 }
 
 
-.navbar-toggler{
+.navbar-toggler {
     font-size: 2rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2.2rem;
     font-weight: bold;
     text-transform: none;
@@ -91,11 +91,11 @@ nav{
 
 // header
 
-header{
+header {
     font-size: 1.5rem;
 }
 
-.carousel-item{
+.carousel-item {
     position: relative;
     height: 100vh;
     background-position: center;
@@ -103,37 +103,41 @@ header{
     z-index: 0;
 }
 
-.carousel-img-one{
+.carousel-img-one {
     background-image: url('../img/mobile/My\ project\ \(2\).jpg');
 }
-.carousel-img-two{
+
+.carousel-img-two {
     background-image: url('../img/mobile/My\ project\ \(4\).jpg');
     background-size: cover;
-              background-repeat: no-repeat;      
+    background-repeat: no-repeat;
 }
-.carousel-img-three{
+
+.carousel-img-three {
     background-image: url('../img/mobile/My\ project\ \(1\).jpg');
 }
 
 // main
 
-.aboutus{
-    .container{
+.aboutus {
+    .container {
         width: 100%;
         // background-color: red;
 
-        .aboutus-text{
+        .aboutus-text {
             display: flex;
             flex-direction: column;
             margin: 25px 0;
-            .text{
+
+            .text {
                 display: inline-block;
                 text-align: center;
                 font-size: 18px;
                 font-family: 'Antonio', sans-serif;
                 line-height: 35px;
             }
-            .aboutus-imgOne{
+
+            .aboutus-imgOne {
                 background-image: url(../img/mobile/My\ project\ \(5\).jpg);
                 width: 250px;
                 height: 250px;
@@ -144,7 +148,8 @@ header{
                 border-radius: 25px;
                 align-self: center;
             }
-            .aboutus-imgTwo{
+
+            .aboutus-imgTwo {
                 background-image: url(../img/mobile/michal.png);
                 width: 250px;
                 height: 250px;
@@ -159,115 +164,131 @@ header{
     }
 }
 
-.contactus{
-height: 100vh;
-width: 100%;
-.container-form{
-.form-container{
-position: relative;
-top: 150px;
-width: 75%;
-margin: 0 auto;
-form {
-    border-radius: 30px;
-    background: #fff;
-      }
-      .form-left-decoration,
-      .form-right-decoration {
-      content: "";
-      position: absolute;
-      width: 50px;
-      height: 20px;
-      border-radius: 20px;
-      background: #5a7233;
-      }
-      .form-left-decoration {
-      bottom: 60px;
-      left: -30px;
-      }
-      .form-right-decoration {
-      top: 60px;
-      right: -30px;
-      }
-      .form-left-decoration:before,
-      .form-left-decoration:after,
-      .form-right-decoration:before,
-      .form-right-decoration:after {
-      content: "";
-      position: absolute;
-      width: 50px;
-      height: 20px;
-      border-radius: 30px;
-      background: #fff;
-      }
-      .form-left-decoration:before {
-      top: -20px;
-      }
-      .form-left-decoration:after {
-      top: 20px;
-      left: 10px;
-      }
-      .form-right-decoration:before {
-      top: -20px;
-      right: 0;
-      }
-      .form-right-decoration:after {
-      top: 20px;
-      right: 10px;
-      }
-      .circle {
-      position: absolute;
-      bottom: 80px;
-      left: -55px;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #fff;
-      }
-      .form-inner {
-      padding: 40px;
-      }
-      .form-inner input,
-      .form-inner textarea {
-      display: block;
-      width: 100%;
-      padding: 15px;
-      margin-bottom: 10px;
-      border: none;
-      border-radius: 20px;
-      background: #d0dfe8;
-      }
-      .form-inner textarea {
-      resize: none;
-      }
-      button {
-      width: 100%;
-      padding: 10px;
-      margin-top: 20px;
-      border-radius: 20px;
-      border: none;
-      border-bottom: 4px solid #3e4f24;
-      background: #5a7233; 
-      font-size: 16px;
-      font-weight: 400;
-      color: #fff;
-      }
-      button:hover {
-      background: #3e4f24;
-      }
-   }
-}
+.contactus {
+    height: 100vh;
+    width: 100%;
+
+    .container-form {
+        .form-container {
+            position: relative;
+            top: 150px;
+            width: 75%;
+            margin: 0 auto;
+
+            form {
+                border-radius: 30px;
+                background: #fff;
+            }
+
+            .form-left-decoration,
+            .form-right-decoration {
+                content: "";
+                position: absolute;
+                width: 50px;
+                height: 20px;
+                border-radius: 20px;
+                background: #5a7233;
+            }
+
+            .form-left-decoration {
+                bottom: 60px;
+                left: -30px;
+            }
+
+            .form-right-decoration {
+                top: 60px;
+                right: -30px;
+            }
+
+            .form-left-decoration:before,
+            .form-left-decoration:after,
+            .form-right-decoration:before,
+            .form-right-decoration:after {
+                content: "";
+                position: absolute;
+                width: 50px;
+                height: 20px;
+                border-radius: 30px;
+                background: #fff;
+            }
+
+            .form-left-decoration:before {
+                top: -20px;
+            }
+
+            .form-left-decoration:after {
+                top: 20px;
+                left: 10px;
+            }
+
+            .form-right-decoration:before {
+                top: -20px;
+                right: 0;
+            }
+
+            .form-right-decoration:after {
+                top: 20px;
+                right: 10px;
+            }
+
+            .circle {
+                position: absolute;
+                bottom: 80px;
+                left: -55px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: #fff;
+            }
+
+            .form-inner {
+                padding: 40px;
+            }
+
+            .form-inner input,
+            .form-inner textarea {
+                display: block;
+                width: 100%;
+                padding: 15px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 20px;
+                background: #d0dfe8;
+            }
+
+            .form-inner textarea {
+                resize: none;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                margin-top: 20px;
+                border-radius: 20px;
+                border: none;
+                border-bottom: 4px solid #3e4f24;
+                background: #5a7233;
+                font-size: 16px;
+                font-weight: 400;
+                color: #fff;
+            }
+
+            button:hover {
+                background: #3e4f24;
+            }
+        }
+    }
 }
 
 // footer
 
-.footer-container{
-    .social-media{
-        ul{
+.footer-container {
+    .social-media {
+        ul {
             display: flex;
             list-style-type: none;
 
-            li{
+            li {
                 margin-right: 10px;
             }
         }
@@ -275,24 +296,25 @@ form {
 }
 
 
-@media (min-width: 768px) { 
-    .aboutus{
-        .aboutus-description{
+@media (min-width: 768px) {
+    .aboutus {
+        .aboutus-description {
             font-size: 32px;
         }
 
-        .container{
-            .aboutus-text{
-                .text{
+        .container {
+            .aboutus-text {
+                .text {
                     font-size: 24px;
                 }
-                .aboutus-imgOne{
+
+                .aboutus-imgOne {
                     width: 400px;
                     height: 400px;
                     margin-top: 50px;
                 }
 
-                .aboutus-imgTwo{
+                .aboutus-imgTwo {
                     width: 400px;
                     height: 400px;
                     margin-top: 50px;
@@ -303,30 +325,31 @@ form {
 }
 
 @media (min-width: 992px) {
-    .aboutus{
-        .aboutus-description{
+    .aboutus {
+        .aboutus-description {
             font-size: 42px;
         }
     }
 
-    .contactus{
-        .container-form .form-container{
+    .contactus {
+        .container-form .form-container {
             top: 250px;
         }
     }
- }
+}
 
 @media (min-width: 1200px) {
-    .aboutus{
-        .aboutus-description{
+    .aboutus {
+        .aboutus-description {
             font-size: 42px;
             margin-top: 34px;
         }
-      .container{
-          .aboutus-text{
-              .text{
-              font-size: 32px;
-               }
+
+        .container {
+            .aboutus-text {
+                .text {
+                    font-size: 32px;
+                }
             }
         }
     }
@@ -410,7 +433,7 @@ form {
 //                 top: 0;
 //             }
 //             .aboutus-title{
-                
+
 //                 .aboutus-eco-text{
 //                 position: relative  ;
 //                 top: 0;
@@ -430,7 +453,7 @@ form {
 //                 justify-content: center;
 //                 align-items: center;
 //                 gap: 10px;
-            
+
 //              .aboutus-eco-imgOne{
 //               display: inline-block;
 //               background-image: url(../img/LTZH9489.JPG);
@@ -464,8 +487,3 @@ form {
 //             }             
 //      }    }
 // }
-
-
-
-
-  
