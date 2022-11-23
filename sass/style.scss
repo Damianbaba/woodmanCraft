@@ -132,7 +132,7 @@ header {
             .text {
                 display: inline-block;
                 text-align: center;
-                font-size: 180px;
+                font-size: 30px;
                 font-family: 'Antonio', sans-serif;
                 line-height: 35px;
             }
@@ -291,9 +291,28 @@ header {
             li {
                 margin-right: 10px;
             }
+            
         }
+       
     }
 }
+.footer-container{
+
+.info{
+    .contacts{
+        li{margin-bottom: 10px;
+            font-size: 20px;
+            font-family: 'Antonio', sans-serif;
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+        }
+       } 
+
+
+}
+}
+
 
 
 @media (min-width: 768px) {

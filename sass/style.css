@@ -85,7 +85,7 @@ header {
 .aboutus .container .aboutus-text .text {
   display: inline-block;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
   font-family: "Antonio", sans-serif;
   line-height: 35px;
 }
@@ -216,6 +216,15 @@ header {
 }
 .footer-container .social-media ul li {
   margin-right: 10px;
+}
+
+.footer-container .info .contacts li {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Antonio", sans-serif;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 @media (min-width: 768px) {
