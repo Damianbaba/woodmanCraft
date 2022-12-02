@@ -211,11 +211,18 @@ header {
 }
 
 .footer-container .social-media ul {
+  position: fixed;
+  bottom: 0;
+  right: 0;
   display: flex;
   list-style-type: none;
+  flex-direction: column;
 }
 .footer-container .social-media ul li {
-  margin-right: 10px;
+  margin: 0 5px 10px 0;
+}
+.footer-container .social-media ul li img {
+  width: 40px;
 }
 
 .footer-container .info .contacts li {
@@ -244,6 +251,9 @@ header {
     height: 400px;
     margin-top: 50px;
   }
+  .footer-container .social-media ul li img {
+    width: 50px;
+  }
 }
 @media (min-width: 992px) {
   .aboutus .aboutus-description {
@@ -260,5 +270,8 @@ header {
   }
   .aboutus .container .aboutus-text .text {
     font-size: 32px;
+  }
+  .footer-container .social-media ul li img {
+    width: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
