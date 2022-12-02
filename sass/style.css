@@ -272,6 +272,11 @@ header {
     font-size: 32px;
   }
   .footer-container .social-media ul li img {
+    margin-right: 6vw;
     width: 60px;
+  }
+  html {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -17,6 +17,7 @@
 
 html {
     font-size: 62.5%;
+    
 }
 
 body {
@@ -32,6 +33,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
+
+    
 
 // .underline::before {
 //   content: '';
@@ -288,14 +291,10 @@ header {
         ul {position: fixed;
             bottom: 0;
             right: 0;
-            
-            
             display: flex;
             list-style-type: none;
             flex-direction: column;
             
-            
-
             li {margin:0 5px 10px 0;
                 img {
                     width: 40px
@@ -360,11 +359,6 @@ header {
         .social-media {
             
             ul {
-                
-                
-                
-                
-    
                 li {
                     img {
                         width: 50px
@@ -419,24 +413,20 @@ header {
         .social-media {
             
             ul {
-                
-                
-                
-                
-                
-    
                 li {
-                    img {
+                    img {margin-right: 6vw;
                         width: 60px
                         
                     }
-                    
-                    
-                }
+                    }
                 
             }
            
         }
+    }
+    html{
+        margin-left: 5vw;
+    margin-right: 5vw;
     }
     
 }
