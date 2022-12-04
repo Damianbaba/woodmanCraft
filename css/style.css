@@ -219,13 +219,23 @@ header {
 }
 
 .footer-container .social-media ul {
+  position: fixed;
+  bottom: 0;
+  right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .footer-container .social-media ul li {
-  margin-right: 10px;
+  margin: 0 5px 10px 0;
+}
+.footer-container .social-media ul li img {
+  width: 40px;
 }
 
 .footer-container .info .contacts li {
@@ -269,7 +279,7 @@ header {
     font-size: 42px;
   }
   .contactus .container-form .form-container {
-    top: 250px;
+    top: 80px;
   }
   .contactus .container-form {
     width: 50%;
@@ -277,12 +287,27 @@ header {
   }
 }
 @media (min-width: 1366px) {
+  .navbar .container .logo object {
+    width: 500px;
+  }
   .aboutus .aboutus-description {
     font-size: 42px;
     margin-top: 34px;
   }
   .aboutus .container .aboutus-text .text {
-    font-size: 32px;
+    font-size: 28px;
+  }
+  .aboutus .container .aboutus-text .aboutus-imgOne {
+    width: 366px;
+    height: 370px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+  }
+  .aboutus .container .aboutus-text .aboutus-imgTwo {
+    width: 366px;
+    height: 370px;
+    margin-top: 18px;
+    margin-bottom: 16px;
   }
   .contactus .container-form {
     width: 50%;
