@@ -259,6 +259,10 @@ header {
     height: 400px;
     margin-top: 50px;
   }
+  .contactus .container-form {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 @media (min-width: 992px) {
   .aboutus .aboutus-description {
@@ -267,13 +271,21 @@ header {
   .contactus .container-form .form-container {
     top: 250px;
   }
+  .contactus .container-form {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
   .aboutus .aboutus-description {
     font-size: 42px;
     margin-top: 34px;
   }
   .aboutus .container .aboutus-text .text {
     font-size: 32px;
+  }
+  .contactus .container-form {
+    width: 50%;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */

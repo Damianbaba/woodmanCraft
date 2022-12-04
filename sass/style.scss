@@ -169,6 +169,8 @@ header {
     width: 100%;
 
     .container-form {
+        // width: 50%;
+        // margin: 0 auto;
         .form-container {
             position: relative;
             top: 150px;
@@ -313,7 +315,9 @@ header {
 }
 }
 
+@media (min-width: 768px) {
 
+}
 
 @media (min-width: 768px) {
     .aboutus {
@@ -341,6 +345,13 @@ header {
             }
         }
     }
+
+    .contactus{
+        .container-form {
+             width: 75%;
+             margin: 0 auto;
+            }
+    }
 }
 
 @media (min-width: 992px) {
@@ -355,9 +366,16 @@ header {
             top: 250px;
         }
     }
+
+    .contactus{
+        .container-form {
+             width: 50%;
+             margin: 0 auto;
+            }
+    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
     .aboutus {
         .aboutus-description {
             font-size: 42px;
@@ -371,6 +389,12 @@ header {
                 }
             }
         }
+    }
+    .contactus{
+        .container-form {
+             width: 50%;
+             margin: 0 auto;
+            }
     }
 }
 
